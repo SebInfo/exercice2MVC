@@ -1,5 +1,4 @@
 <?php
-$titre ="Liste des Pompiers";
 ob_start();
 ?>
 <table class="table table-striped">
@@ -27,5 +26,6 @@ ob_start();
     </tbody>
 </table>
 <?php
+$titre ="Liste des Pompiers";
 $content = ob_get_clean();
 require "gabarit.php";

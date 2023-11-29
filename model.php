@@ -34,7 +34,7 @@ function getAllPompiers(){
     $bdd = getObjetPDO("DSC");
     if ($bdd != false )
     {
-        return $bdd->query($req);
+        //return $bdd->query($req);
     }
     else
     {
